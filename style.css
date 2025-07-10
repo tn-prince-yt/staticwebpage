@@ -1,0 +1,142 @@
+/*Global style
+-------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Menu style
+-------------------*/
+.menu nav {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+
+.menu li,h1,ul{
+    display: inline-block;
+}
+
+.menu ul{
+    margin-left: 60%;
+}
+.menu li{
+    margin: 20px 20px 20px 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+.menu h1{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.menu li:hover{
+    color: white;
+}
+
+
+/*Serach style
+-------------------*/
+
+input{
+    width: 50%;
+    padding: 15px;
+    
+}
+
+.search{
+    padding:50px;
+    text-align: center;
+}
+
+/*product style
+-------------------*/
+.box1{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    width: 371px;
+    margin-left: 50px;
+}
+
+.box1 h1 {
+    color: gray;
+}
+
+.box1 h1:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.box1 nav {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+
+/*.box1:hover{
+    background-color: gray;
+}*/
+.product{
+    text-align: center;
+}
+
+/*about style
+-------------------*/
+.about {
+    text-align: center;
+    padding: 40px;
+   
+}
+.about p{
+    text-align: left;
+    padding: 5px;
+}
+
+/*contact style
+-------------------*/
+.contact{
+    padding: 5px;
+}
+
+.contact .p{
+    padding: 15px;
+
+}
+
+/*footer style
+-------------------*/
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.footer li,ul{
+    display: inline-block;
+}
+
+.footer ul{
+    text-align: center;
+    padding: 15px;
+}
+.footer li{
+    margin: 20px 20px 20px 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+footer h1{
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.footer li:hover{
+    color: white;
+}
+.footer{
+    padding: 15px;
+}
